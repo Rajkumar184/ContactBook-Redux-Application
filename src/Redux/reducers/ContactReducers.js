@@ -18,14 +18,14 @@ const initialState = [
 
 export const ContactReducers = (state = initialState, action) => {
 	switch (action.type) {
-		case ADD_CONTACT:
+		case ADD_CONTACT: {
 			toast.success("Contact added successfully!!", {
 				position: toast.POSITION.TOP_RIGHT,
 				autoClose: 3000,
 			});
 			state = [...state, action.payload];
 			return state;
-
+		}
 		case DELETED_CONTACT:
 			toast.success("Contact Deleted successfully!", {
 				position: toast.POSITION.TOP_RIGHT,

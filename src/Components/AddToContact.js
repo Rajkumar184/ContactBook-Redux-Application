@@ -23,6 +23,13 @@ const AddToContact = () => {
 			contact.phone === phone ? contact : null
 		);
 
+		// const checkContact = contacts.find((contact) =>
+		// 	contact.name === name ? contact : null
+		// );
+		// if (checkContact) {
+		// 	return toast.error(`${checkContact.name} name is already present!!`);
+		// }
+
 		if (!email || !name || !phone) {
 			return toast.warning("Please fill in all fields!!");
 		}
