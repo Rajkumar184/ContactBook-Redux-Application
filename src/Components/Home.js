@@ -14,15 +14,15 @@ const Home = () => {
 					Add Contact
 				</Link>
 
-				<div className="col-lg-12 col-md-12 col-12 my-4">
+				<div className="col-lg-10 mx-auto my-4">
 					<table className="table table-condensed table-responsive table-hover">
 						<thead className="table-header bg-dark text-white">
 							<tr>
-								<th scope="col">Id</th>
-								<th scope="col">Name</th>
-								<th scope="col">Email</th>
-								<th scope="col">Phone</th>
-								<th scope="col"></th>
+								<th style={{ width: "10%" }}>Id</th>
+								<th style={{ width: "26%" }}>Name</th>
+								<th style={{ width: "30%" }}>Email</th>
+								<th style={{ width: "26%" }}>Phone</th>
+								<th style={{ width: "25%" }}></th>
 							</tr>
 						</thead>
 						<tbody>
