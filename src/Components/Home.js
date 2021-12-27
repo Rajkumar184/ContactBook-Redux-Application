@@ -14,8 +14,8 @@ const Home = () => {
 					Add Contact
 				</Link>
 
-				<div className="col-lg-10  mx-auto my-4">
-					<table className="table table-hover">
+				<div className="col-lg-12 col-md-12 col-12 my-4">
+					<table className="table table-condensed table-responsive table-hover">
 						<thead className="table-header bg-dark text-white">
 							<tr>
 								<th scope="col">Id</th>
