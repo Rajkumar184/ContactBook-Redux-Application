@@ -33,7 +33,7 @@ const Navbar = () => {
 						{/* login logout toggle */}
 
 						<li className="nav-item">
-							<button className="btn btn-success " to="/logout">
+							<button className="btn btn-success " to="/login">
 								<span className="fas fa-sign-in-alt "></span> Login
 							</button>
 						</li>
