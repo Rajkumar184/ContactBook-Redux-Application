@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	return (
-		<div className="col-md-12 bg-dark py-2">
+		<>
 			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-				<Link to={"/"} className="navbar-brand ml-5">
+				<Link to={"/"} className="navbar-brand ">
 					React Redux Contact Book
 				</Link>
 				<button
@@ -46,7 +46,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 			</nav>
-		</div>
+		</>
 	);
 };
 
